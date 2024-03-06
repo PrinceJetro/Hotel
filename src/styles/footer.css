@@ -1,0 +1,100 @@
+.footer{
+    background-color: rgb(236, 234, 234);
+}
+
+    /* pc */
+    @media screen and (min-width: 480px) {
+        .footer  .first{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .footer  .first a{
+            margin: 75px 75px 40px 75px;
+            color:  rgb(51, 51, 51);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: normal;
+            line-height: 22.08px;
+        }
+      }
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .footer  .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .footer  .first a{
+        color:  rgb(51, 51, 51);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 22.08px;
+        margin: 20px ;
+    }
+ }
+
+
+ .footer  .second{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .footer  .second a{
+    color: #844e02;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 22.08px;
+}
+
+.footer  .first a:hover, .footer .second a:hover{
+    color: #844e02;
+    text-decoration: none;
+}
+
+.footer .second p{
+    margin: 0px;
+}
+
+.footer .last{
+    background-color: rgb(40, 42, 43);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(153, 153, 153);
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 16.56px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-top: 18px;
+}
+
+.footer .last a{
+    color: rgb(153, 153, 153);
+}
+
+.footer .last a:hover{
+    color: white;
+    text-decoration: none;
+}
+

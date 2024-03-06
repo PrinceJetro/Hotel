@@ -1,0 +1,17 @@
+.intro_img{
+  background-blend-mode: normal;
+  background-image: url("../images/home\ image.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-color: rgb(234, 233, 233);
+ box-sizing: border-box;
+  height: 100vh;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  scroll-behavior: auto;
+  width: 100%;
+}
